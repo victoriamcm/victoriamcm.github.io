@@ -188,7 +188,6 @@ vertical-align: middle;
 }
 /* ABOUT */
 .bio{
-
 position: absolute;
 width: 30%;
 top: 65%;
@@ -205,32 +204,50 @@ color: white;
 font-weight: 200;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For Phones: */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+ /* STYLES GO HERE */   /* For Phones: */
     #header{
-    min-height: 70vh;
+    min-height: 60vh;
     background-position:right;
     background-repeat: no-repeat;
     background-size: cover;
     }
     #header img{
+    top: 30%;
     width: 50%;
     right: 30%;
     }
+    nav{
+    height: 150px;
+    padding-top: 25px;
+      }
+      nav ul li{
+    width: 18%;
+      }
+      nav a{
+        font-size: 2.5em;
+      }
+      
+      #gallery h2{
+    font-size: 4em;
+      }
     .third a{
     width: 100%;
     padding-right: 10px;
     }
     .third a h3{
     width: 100%;
-    font-size: 3em;
+    font-size: 5em;
     }
     .bottom{
     display: none;
     }
     #button{
     display: block;
-    margin-right: 10px;
+    margin-right: 50px;
     width: 20%;
     float: right;
     text-align: center;
@@ -238,7 +255,11 @@ font-weight: 200;
     }
     #button a{
     text-decoration: none;
+    font-size: 2em;
     }
+    #footer{
+      font-size: 3em;  
+      }
     #form{
     float:left;
     width: 100%;
@@ -250,8 +271,80 @@ font-weight: 200;
     }
     .bio{
     width: 50%;
-    right: 30%;
-    top: 60%;   
+    right: 10%;
+    top: 45%;   
     }
-    
+         
+} 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #header{
+    min-height: 60vh;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #header img{
+    top: 30%;
+    width: 50%;
+    right: 30%;
+    }
+    nav{
+    height: 150px;
+    padding-top: 25px;
+      }
+      nav ul li{
+    width: 18%;
+    height: 70px;
+      }
+      nav a{
+        font-size: 2.5em;
+      }
+      #gallery h2{
+    font-size: 4em;
+      }
+    .third a{
+    width: 100%;
+    padding-right: 10px;
+    }
+    .third a h3{
+    width: 100%;
+    font-size: 5em;
+    }
+    .bottom{
+    display: none;
+    }
+    #button{
+    display: block;
+    margin-right: 50px;
+    width: 20%;
+    float: right;
+    text-align: center;
+    border: 1px solid #901c1c; 
+    }
+    #button a{
+    text-decoration: none;
+    font-size: 2em;
+    }
+    #footer{
+      font-size: 3em;  
+      }
+    #form{
+    float:left;
+    width: 100%;
+    }
+    #social{
+    width: 100%;
+    float: left;
+    clear: both;
+    }
+    .bio{
+    width: 50%;
+    right: 10%;
+    top: 50%;   
+    }
+         
+
 }
