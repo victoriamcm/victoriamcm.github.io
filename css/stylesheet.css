@@ -205,20 +205,20 @@ font-weight: 200;
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (min-device-width: 300px) 
+  and (max-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2) {
  /* STYLES GO HERE */   /* For Phones: */
     #header{
-    min-height: 60vh;
+    min-height: 50vh;
     background-position:right;
     background-repeat: no-repeat;
     background-size: cover;
     }
     #header img{
-    top: 30%;
-    width: 50%;
-    right: 30%;
+    top: 25%;
+    width: 70%;
+    right: 15%;
     }
     nav{
     height: 150px;
@@ -274,77 +274,42 @@ font-weight: 200;
     right: 10%;
     top: 45%;   
     }
+      .main{
+    height: auto;
+      }
+      .thumb img{
+       width: 45%;
+      }
+      #title{
+        font-size: 4em;
+      }
+      #type{
+        font-size: 3em;
+      }
          
 } 
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    #header{
-    min-height: 60vh;
-    background-position:right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    #header img{
-    top: 30%;
-    width: 50%;
-    right: 30%;
-    }
-    nav{
+  and (min-device-width: 100px) 
+  and (max-device-width: 299px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      #header{
+    min-height: 30vh;
+      }
+      #header img{
+    top: 10%;
+    width: 80%;
+      }
+      nav{
     height: 150px;
     padding-top: 25px;
       }
       nav ul li{
     width: 18%;
-    height: 70px;
       }
       nav a{
         font-size: 2.5em;
       }
-      #gallery h2{
-    font-size: 4em;
-      }
-    .third a{
+      .third a{
     width: 100%;
     padding-right: 10px;
-    }
-    .third a h3{
-    width: 100%;
-    font-size: 5em;
-    }
-    .bottom{
-    display: none;
-    }
-    #button{
-    display: block;
-    margin-right: 50px;
-    width: 20%;
-    float: right;
-    text-align: center;
-    border: 1px solid #901c1c; 
-    }
-    #button a{
-    text-decoration: none;
-    font-size: 2em;
-    }
-    #footer{
-      font-size: 3em;  
-      }
-    #form{
-    float:left;
-    width: 100%;
-    }
-    #social{
-    width: 100%;
-    float: left;
-    clear: both;
-    }
-    .bio{
-    width: 50%;
-    right: 10%;
-    top: 50%;   
-    }
-         
-
 }
