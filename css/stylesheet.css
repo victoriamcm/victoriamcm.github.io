@@ -209,6 +209,9 @@ font-weight: 200;
   and (max-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2) {
  /* STYLES GO HERE */   /* For Phones: */
+      #wrapper{
+       height: auto;
+      }
     #header{
     min-height: 50vh;
     background-position:right;
@@ -237,12 +240,13 @@ font-weight: 200;
     .third a{
     width: 100%;
     padding-right: 10px;
+    margin-bottom: 10px;
     }
     .third a h3{
     width: 100%;
     font-size: 5em;
     }
-    .bottom{
+    .bottom, .mid{
     display: none;
     }
     #button{
@@ -288,28 +292,3 @@ font-weight: 200;
       }
          
 } 
-@media only screen 
-  and (min-device-width: 100px) 
-  and (max-device-width: 299px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      #header{
-    min-height: 30vh;
-      }
-      #header img{
-    top: 10%;
-    width: 80%;
-      }
-      nav{
-    height: 150px;
-    padding-top: 25px;
-      }
-      nav ul li{
-    width: 18%;
-      }
-      nav a{
-        font-size: 2.5em;
-      }
-      .third a{
-    width: 100%;
-    padding-right: 10px;
-}
