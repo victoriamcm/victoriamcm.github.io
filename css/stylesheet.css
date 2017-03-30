@@ -45,7 +45,7 @@ text-decoration: line-through;
 /* HEADER */
 #header{
     background-image: url("../images/brand/header.jpg");
-    min-height: 90vh; 
+    min-height: 70vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ text-decoration: line-through;
 }
 #header img{
 position: absolute;
-width: 30%;
+width: 40%;
 top: 40%;
 right: 10%;
 }
@@ -75,7 +75,6 @@ text-decoration: none;
 
 /*GALLERY*/
 #gallery{
-    min-height: 800px;
     clear: both;
     margin: 0 auto;
     overflow: auto;
@@ -94,7 +93,7 @@ margin: 5px auto;
 text-align: center;
 }
 .third a{
-width: 32%;
+width: 30%;
 display: inline-block;
 margin: auto 4px;
 }
@@ -206,7 +205,7 @@ font-weight: 200;
 
 @media only screen 
   and (min-device-width: 300px) 
-  and (max-device-width: 800px)
+  and (max-device-width: 1000px)
   and (-webkit-min-device-pixel-ratio: 2) {
  /* STYLES GO HERE */   /* For Phones: */
       #wrapper{
@@ -219,7 +218,7 @@ font-weight: 200;
     background-size: cover;
     }
     #header img{
-    top: 25%;
+    top: 35%;
     width: 70%;
     right: 15%;
     }
@@ -228,15 +227,9 @@ font-weight: 200;
     padding-top: 25px;
       }
       nav ul li{
-    width: 18%;
+    width: 19%;
       }
-      nav a{
-        font-size: 2.5em;
-      }
-      
-      #gallery h2{
-    font-size: 4em;
-      }
+
     .third a{
     width: 100%;
     padding-right: 10px;
@@ -244,7 +237,6 @@ font-weight: 200;
     }
     .third a h3{
     width: 100%;
-    font-size: 5em;
     }
     .bottom, .mid{
     display: none;
@@ -259,11 +251,8 @@ font-weight: 200;
     }
     #button a{
     text-decoration: none;
-    font-size: 2em;
     }
-    #footer{
-      font-size: 3em;  
-      }
+
     #form{
     float:left;
     width: 100%;
@@ -274,9 +263,10 @@ font-weight: 200;
     clear: both;
     }
     .bio{
-    width: 50%;
-    right: 10%;
-    top: 45%;   
+    width: 100%;
+    left: 50px;
+    top: 60%;
+    font-size: .5em;
     }
       .main{
     height: auto;
@@ -284,11 +274,6 @@ font-weight: 200;
       .thumb img{
        width: 45%;
       }
-      #title{
-        font-size: 4em;
-      }
-      #type{
-        font-size: 3em;
-      }
          
 } 
+
