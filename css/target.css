@@ -1,0 +1,34 @@
+#project{
+height: auto;
+width: auto;
+overflow: auto;
+text-align: center;
+}
+#main{
+display: block;
+width: 100vw;
+overflow: hidden;
+}
+#main img{
+width: 100%;
+}
+#main h1{
+font-size: 3em;
+background-color: rgba(255, 255, 255, 0.5);
+color: black;
+position: absolute;
+z-index: 1;
+width: 100vw;
+top:25%;
+padding: 1%;
+}
+.thumbnails{
+margin: 1% 0 0 0;
+overflow: auto;
+display: inline-block;
+}
+
+.thumbnails img{
+padding: 1% .5%;
+width: 47%;
+}

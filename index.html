@@ -1,86 +1,56 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Victoria</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
-<!-- style sheet -->
-<link rel="shortcut icon" type="image/png" href="/images/brand/favicon.ico"/> 
-<!-- flavicon -->
-<script src="https://use.typekit.net/gmz0lrp.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<!-- type kit-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">    
+    <title>Victoria McMillan</title>
+<link rel="icon" href="/img/brand/inital.png" type="image/png" sizes="16x16">
+
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<script>
+function w3_open() {
+document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+    
 <div id="wrapper">
-
-<nav><ul>
-    <li><a href="/portfolio/portfolio.html">portfolio</a></li>
-    <li><a href="http://projectoneam.tumblr.com/" target="_blank">blog</a></li>
-    <li><a href="/index.html">
-        <img id="logo" src="/images/brand/inital.png" height="50px" ></a></li>
-    <li><a href="/contact/contact.html">contact</a></li>
-    <li><a href="/about/about.html">about</a></li>
-</ul></nav><!-- nav-->
     
-    
-<div id="header">
-<img src="/images/brand/name_logo_white.png" width="1000px"><!-- handletter logo-->
-</div><!-- header-->
+<nav style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="close">close</button>
 
+<ul><!--nav menu-->
+    <li><a href="/portfolio.html">portfolio</a></li>
+    <li><a href="http://projectoneam.tumblr.com" target="_blank">blog</a></li>
+    <li><a href="/index.html"><img src="/img/brand/inital.png" height="30px;"></a></li>
+    <li><a href="/contact.html">contact</a></li>
+    <li><a href="/about.html">about</a></li>
+</ul>
+</nav>
+
+<div id="sitewrap">
+    <button id="open" class="open" onclick="w3_open()">menu</button>
+<header>
+<img src="img/brand/name_logo_white.png">
+</header>
 <div id="gallery">
-<h2>portfolio</h2>
-<div class="third top">
-
-    <a href="/ignoranceisbliss/ignoranceisbliss.html">
-    <h3>Ignorance is Bliss</h3>
-    <img class="thumb" src="images/thumbnail/th_ignorance.jpg" alt="ignorance"></a>
+<h1>featured</h2>
+    <div>
+        <a href="/portfolio/ignornance.html"><h2>Ignorance is Bliss</h2><img src="img/thumb/th_ignorance.jpg"></a>
+        <a href="/portfolio/monster.html"><h2>Monser Energy</h2><img src="img/thumb/th_monster.jpg"></a>
+        <a href="/portfolio/wallofsound.html"><h2>Wall of Sound</h2><img src="img/thumb/th_wallofsound.jpg"></a>
+    </div>
     
-    <a href="/monster/monster.html">
-    <h3>Monster Energy</h3>
-    <img class="thumb" src="/images/thumbnail/th_monster.jpg"></a>
-    
-    <a href="/wallofsound/wallofsound.html">
-    <h3>Wall of Sound</h3>
-    <img class="thumb" src="/images/thumbnail/th_wallofsound.jpg"></a>
+<div class="more"><a href="portfolio.html">more</a></div>
+</div><!--end of gallery-->
+<footer>2017 victoria mcmillan©</footer>
+</div><!-- end of sitewrap-->
+</div><!--end of wrapper-->
 
-</div><div id="button"><a href="/portfolio/portfolio.html">more</a>
-<div class="third mid">
-
-    <a href="/fem4all/fem4all.html">
-    <h3>Fem 4 All</h3>
-    <img class="thumb" src="/images/thumbnail/th_fem4all.jpg"></a>
-    
-    <a href="/raiders/raiders.html">
-    <h3>Raiders of the Lost Ark</h3>
-    <img class="thumb" src="/images/thumbnail/th_raiders.jpg"></a>
-    
-    <a  href="/gallery44/gallery44.html">
-    <h3>Gallery 44</h3>
-    <img class="thumb" src="/images/thumbnail/th_gallery44.jpg"></a>
-
-</div>
-</div>
-<div class="third bottom">
-
-    <a href="/goldrush/goldrush.html">
-    <h3>Gold Rush</h3>
-    <img class="thumb" src="/images/thumbnail/th_gold_rush.jpg"></a>    
-    <a href="/audi/audi.html">
-    <h3>Audi</h3>
-    <img class="thumb" src="/images/thumbnail/th_audi.jpg"></a>
- <a href="/illustrations/illustrations.html">
-    <h3>Illustrations</h3>
-    <img class="thumb" src="/images/thumbnail/th_illustrations.jpg"></a>
-
-</div>
-
-</div><!-- gallery-->
-
-<div id="footer">
-<p><a href="/legal/legal.html">victoria mcmillan ©</a></p></div>
-
-</div><!-- wrapper -->
 </body>
 </html>
