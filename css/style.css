@@ -10,9 +10,8 @@
     font-family: 'Lato', sans-serif;    
     font-weight: 200;
     color: #901c1c;
-
-    
 }
+
 #wrapper{
 margin: auto;
 overflow: scroll;
@@ -69,14 +68,12 @@ header{
 height: 100%;
 background-image: url(../img/brand/header.jpg);
 background-attachment: fixed;
-background-size:contain;
-background-repeat: no-repeat;
+background-size:cover;
 background-position: right;
 }
 header img{
-display: block;
-width: 50%;
-padding: 10% 0 10% 0;
+width: 80%;
+padding: 10% 0% 10% 20%;
 margin: auto;
 }
 
