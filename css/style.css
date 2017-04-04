@@ -14,7 +14,8 @@
     
 }
 #wrapper{
-overflow: auto;
+margin: auto;
+overflow: scroll;
 }
 footer{
 width: 100%;
