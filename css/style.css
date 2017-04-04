@@ -1,11 +1,4 @@
-@font-face {
-    font-family:"lato-light";
-    src: url(/font/Lato-light.ttf);
-}
-@font-face {
-    font-family:"lato-med";
-    src: url(/font/Lato-medium.ttf);
-}
+
 *{
     margin: 0;
 	padding: 0;
@@ -14,7 +7,8 @@
 	font: inherit;
 	vertical-align: baseline;
     box-sizing: border-box;
-    font-family:"lato-light";
+    font-family:"lato";
+    font-weight: 200;
     color: #901c1c;
 
     
@@ -31,26 +25,27 @@ color: rgba(0, 0, 0, 0.50);
 }
 /*nav*/
 nav{
-height: 45vh;
+height: 50vh;
 background-color: white;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
 width: 100%;
 position: absolute;
-z-index: 1000;
+z-index: 10000000;
+overflow: hidden;
 }
 .open{
 width: 100%;
 background-color: white;
-font-size: 1.2em;
-padding: 3px;
+font-size: 2.2em;
+padding: 3%;
 position: relative;
 }
 .close{
 width: 100%;
 background-color: #901c1c;
 color: white;
-font-size: 1.2em;
-padding: 3px;
+font-size: 2.2em;
+padding: 3%;
 position: relative;
 z-index: 100000;
 }
@@ -62,7 +57,7 @@ nav ul li{
 display: block;
 width: auto;
 margin: 3% 2%;
-font-size: 1.5em;
+font-size: 2em;
 }
 nav a{
 text-decoration: none;
@@ -70,17 +65,17 @@ text-decoration: none;
 
 /*header*/
 header{
-height: 50vh;
+height: 100%;
 background-image: url(../img/brand/header.jpg);
 background-attachment: fixed;
 background-size: cover;
 background-position: right;
 }
 header img{
-width: 100vw;
-text-align: center;
-margin: 20% 0;
-padding: 0 10px 0 10px;
+display: block;
+width: 70%;
+padding: 10% 0 10% 0;
+margin: auto;
 }
 
 /*gallery*/
